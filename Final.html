@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KayCee Abstract</title>
+  </head>
+
+  <body>
+      
+      <nav id="topNav" class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><img id="logo" class="img-fluid" src="images/logo.png"/></a> <!--Add Logo Here-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+
+        <div class="collapse navbar-collapse" id="myNavBar">
+          <ul class="navbar-nav mr-auto">
+            <!--Modify These Items Below-->
+            <li class="nav-item active">
+              <a class="nav-link" id="Links" href="#" onclick="javascript:showHomeDiv(); return false;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="Links" href="#" onclick="javascript:showAboutDiv(); return false;">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="Links" href="#" onclick="javascript:showContactDiv(); return false;">Contact</a>
+            </li>
+          </ul>
+        </div><!--Ending Div for Nav-->
+      </nav>
+      <!--Slider at Top: consistent throughout pages-->
+      <div class="row my-row" id="sliderRow">
+        <div class="col my-col">
+          <div id="demo1">
+            <div class="slide">
+              <img src="images/paint2.jpg" /> 
+            </div>
+            <div class="slide">
+              <img src="images/paint3-a.jpg" />
+            </div>
+            <div class="slide">
+              <img src="images/paint4.jpg" />
+            </div>
+            <div class="slide">
+              <img src="images/paint5.jpg" />
+            </div>
+            <div class="slide">
+              <img src="images/paint6.jpg" />
+            </div>
+            <div class="slide">
+              <img src="images/paint1.jpg" />
+            </div>
+          </div>    
+        </div>
+      </div>
+      
+
+      <!--Main Coding Below-->
+      <main role="main" class="container-fluid my-container">
+    <!----------------------------------------------HOME PAGE SECTION------------------------------------------------------>
+    <div id="homeSection">  
+      <!--Top Header-->
+      <div class="row my-row"> 
+        <div class="col my-col" id="headerCol">
+          <p class="display-4" id="welcome">Welcome to KayCee Abstract !</p>
+        </div>
+      </div><!--Row 1 End-->
+      <!--Intro To Products-->
+      <div class="row  my-row"> 
+        <div class="col my-col">
+          <h3 id="homeInto">Here are some paintings that are currently for sale ! </h3>
+          <h3 id="homeInto">Please browse around and feel free to jump over to our contact page to get in touch !</h3>
+          <h3 id="homeInto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks for visiting ! :)</h3>
+        </div>
+      </div><!--Row 2 End-->
+      
+
+      <!--First Set of 3 Pics-->
+      <div class="row form-group my-row">
+        <div class="col-4 my-col media d-flex justify-content-center">
+          <img id="thumbnail" class="align-self-center mr-3 rounded-circle img-fluid " src="images/pic1.jpg">
+            <div class="media-body">
+              <h5 class="mt-0">New Beginnings</h5>
+              <p class="mb-0">$27</p>
+              <button type="button" class="mb-0 btn btn-info" data-toggle="modal" data-target="#modp1">View</button>
+            </div>
+        </div>
+        <div class="col-4 my-col media d-flex justify-content-center">
+          <img id="thumbnail" class="align-self-center mr-3 rounded-circle img-fluid " src="images/pic2.jpg">
+            <div class="media-body">
+              <h5 class="mt-0">Phoenix Feather</h5>
+              <p class="mb-0">$34</p>
+              <button type="button" class="mb-0 btn btn-info" data-toggle="modal" data-target="#modp2">View</button>
+            </div>
+        </div>
+        <div class="col-4 my-col media d-flex justify-content-center">
+          <img id="thumbnail" class="align-self-center mr-3 rounded-circle img-fluid " src="images/pic3.jpg">
+            <div class="media-body">
+              <h5 class="mt-0">Endless Paths</h5>
+              <p class="mb-0">$21</p>
+              <button type="button" class="mb-0 btn btn-info" data-toggle="modal" data-target="#modp3">View</button>
+            </div>
+        </div>
+      </div><!--Row 3 End-->
+      <!--Second Set of Pics-->
+      <div class="row form-group my-row">
+        <div class="col-4 my-col media d-flex justify-content-center">
+          <img id="thumbnail" class="align-self-center mr-3 rounded-circle img-fluid " src="images/pic4.jpg">
+            <div class="media-body">
+              <h5 class="mt-0">Startlit Sea</h5>
+              <p class="mb-0">$29</p>
+              <button type="button" class="mb-0 btn btn-info" data-toggle="modal" data-target="#modp4">View</button>
+            </div>
+        </div>
+        <div class="col-4 my-col media d-flex justify-content-center">
+          <img id="thumbnail" class="align-self-center mr-3 rounded-circle img-fluid " src="images/pic5.jpg">
+            <div class="media-body">
+              <h5 class="mt-0">Ocean Rage</h5>
+              <p class="mb-0">$20</p>
+              <button type="button" class="mb-0 btn btn-info" data-toggle="modal" data-target="#modp5">View</button>
+            </div>
+        </div>
+        <div class="col-4 my-col media d-flex justify-content-center">
+          <img id="thumbnail" class="align-self-center mr-3 rounded-circle img-fluid " src="images/pic6.jpg">
+            <div class="media-body">
+              <h5 class="mt-0">Northern Lights</h5>
+              <p class="mb-0">$25</p>
+              <button type="button" class="mb-0 btn btn-info" data-toggle="modal" data-target="#modp6">View</button>
+            </div>
+        </div>
+      </div><!--Row 4 End-->
+      <!--Third Set Of Pics-->
+      <div class="row form-group my-row">
+        <div class="col-4 my-col media d-flex justify-content-center">
+          <img id="thumbnail" class="align-self-center mr-3 rounded-circle img-fluid " src="images/pic7.jpg">
+            <div class="media-body">
+              <h5 class="mt-0">Midnight Rain</h5>
+              <p class="mb-0">$32</p>
+              <button type="button" class="mb-0 btn btn-info" data-toggle="modal" data-target="#modp7">View</button>
+            </div>
+        </div>
+        <div class="col-4 my-col media d-flex justify-content-center">
+          <img id="thumbnail" class="align-self-center mr-3 rounded-circle img-fluid " src="images/pic8.jpg">
+            <div class="media-body">
+              <h5 class="mt-0">Imperfect Beauty</h5>
+              <p class="mb-0">$23</p>
+              <button type="button" class="mb-0 btn btn-info" data-toggle="modal" data-target="#modp8">View</button>
+            </div>
+        </div>
+        <div class="col-4 my-col media d-flex justify-content-center">
+          <img id="thumbnail" class="align-self-center mr-3 rounded-circle img-fluid " src="images/pic9.jpg">
+            <div class="media-body">
+              <h5 class="mt-0">Internal Fireworks</h5>
+              <p class="mb-0">$18</p>
+              <button type="button" class="mb-0 btn btn-info" data-toggle="modal" data-target="#modp9">View</button>
+            </div>
+        </div>
+      </div><!--Row 5 End-->
+    </div><!--HomeSection End Div-->
+    <!----------------------------------------------END OF HOME PAGE SECTION------------------------------------------------>
+
+
+    <!----------------------------------------------START OF ABOUT PAGE SECTION---------------------------------------------->
+    <div id="aboutSection" style="display:none">
+      <div class="row">
+        <div class="col-12">
+          <p class="display-3" id="aboutK">About KayCee Abstract</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5" id="aboutParagraph">
+          <p>Painting is something that not only interests me but, at times, saves me. My name is Kiely, and I am the owner and creator of KayCee abstract. Sometimes the world can seem like it is just too much to process, and for a long time, I did not know how to deal with it. Finally, I found painting. When I thought about painting a picture, I thought it had to start with an image and finish that exact way. What I realized, though, is that painting can just flow. It can just be a release of feelings onto a canvas, and whatever
+            the finished product is, it will be precisely what it needs to be in that moment. Painting then became less about trying to accomplish something and more about realizing something. Things can become so much more clear when you take a moment to look. The abstract is beautiful. The perfectly imperfect is the best way of life.
+            I always remind myself that there is inspiration everywhere. All you have to do is take a deep breath and allow yourself to see it. </p>
+          </div>
+      <div class="col-7"><div class="col-8"><img id="artist" src="images/artist.jpg"></div></div>
+      </div>
+    </div>
+    <!----------------------------------------------END OF ABOUT PAGE SECTION------------------------------------------------>
+    
+    <!----------------------------------------------START OF CONTACT PAGE SECTION---------------------------------------------->
+    <div id="contactSection" style="display:none">
+      <div class="row">
+        <div class="col-6">
+          <h1 id="reachingOut">Thank you for reaching out !</h1>
+          <img id="sky" src="images/skynight.jpg">         
+        </div>
+        <div class="col-6">
+           <!-- Start Contact Form -->
+          <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+            <div class="form-group">
+              <div class="controls">
+                <input type="text" id="name" class="form-control" placeholder="Name" required data-error="This field is required">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Email is Required in Proper Format">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="This field is required">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <textarea id="message" rows="7" placeholder="Please Type Your Message Here !" class="form-control" required data-error="This field is required"></textarea>
+                <div class="help-block with-errors"></div>
+              </div>  
+            </div>
+
+            <button type="submit" id="submit" class="btn btn-info"><i class="fa fa-check"></i> Submit</button>
+            <div id="msgSubmit" class="h3 text-center hidden"></div> 
+          </form>     
+    <!-- End Contact Form -->
+        </div>
+      </div>
+    </div>
+    <!----------------------------------------------END OF CONTACT PAGE SECTION------------------------------------------------>
+
+
+    </main><!-- /.container -->
+
+    <!--=========================Start of Modals ========================================-->
+    <!--Start of Modals 1-9-->
+    <div class="modal fade" id="modp1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-title">
+            <p class="display-4">New Beginnings</p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <img src="images/pic1.jpg" id="modalBodyPic">
+            <p>A mix of warm and vibrant pinks and purples giving hope that we can all have new beginnings</p>
+            <p>$27</p>
+            <button type="button" class="btn-success" data-target="modal">Add To Cart</button>
+          </div>
+
+          <div class="modal-footer">
+            <a class="fancybox" rel="group" href="images/pic6.jpg">
+              <img src="images/pic6.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic2.jpg">
+              <img src="images/pic2.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic3.jpg">
+              <img src="images/pic3.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic4.jpg">
+              <img src="images/pic4.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic5.jpg">
+              <img src="images/pic5.jpg" id="fb" /></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div><!--End of Mod 1-->
+    <div class="modal fade" id="modp2">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-title">
+            <p class="display-4">Phoenix Feather</p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <img src="images/pic2.jpg" id="modalBodyPic">
+            <p>Bold yellows and oranges splashed with dark blues and reds, reminding us of the Phoenix and that we too, can rise again.</p>
+            <p>$34</p>
+            <button type="button" class="btn-success" data-target="modal">Add To Cart</button>
+          </div>
+
+          <div class="modal-footer">
+            <a class="fancybox" rel="group" href="images/pic5.jpg">
+              <img src="images/pic5.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic4.jpg">
+              <img src="images/pic4.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic1.jpg">
+              <img src="images/pic1.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic3.jpg">
+              <img src="images/pic3.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic7.jpg">
+              <img src="images/pic7.jpg" id="fb" /></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div><!--End of Mod 2-->
+    <div class="modal fade" id="modp3">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-title">
+            <p class="display-4">Endless Paths</p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <img src="images/pic3.jpg" id="modalBodyPic">
+            <p>Darkness with splashes of brightness, moving quickly in all directions, not unlike the twists and turns of the lives we live</p>
+            <p>$21</p>
+            <button type="button" class="btn-success" data-target="modal">Add To Cart</button>
+          </div>
+
+          <div class="modal-footer">
+            <a class="fancybox" rel="group" href="images/pic1.jpg">
+              <img src="images/pic1.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic4.jpg">
+              <img src="images/pic4.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic8.jpg">
+              <img src="images/pic8.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic2.jpg">
+              <img src="images/pic2.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic9.jpg">
+              <img src="images/pic9.jpg" id="fb" /></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div><!--End of Mod 3-->
+    <div class="modal fade" id="modp4">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-title">
+            <p class="display-4">Startlit Sea</p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <img src="images/pic4.jpg" id="modalBodyPic">
+            <p>A sense of calm on the water as the greatest of the sky above takes over in beauty</p>
+            <p>$29</p>
+            <button type="button" class="btn-success" data-target="modal">Add To Cart</button>
+          </div>
+
+          <div class="modal-footer">
+            <a class="fancybox" rel="group" href="images/pic9.jpg">
+              <img src="images/pic9.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic7.jpg">
+              <img src="images/pic7.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic3.jpg">
+              <img src="images/pic3.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic2.jpg">
+              <img src="images/pic2.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic1.jpg">
+              <img src="images/pic1.jpg" id="fb" /></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div><!--End of Mod 4-->
+    <div class="modal fade" id="modp5">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-title">
+            <p class="display-4">Ocean Rage</p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <img src="images/pic5.jpg" id="modalBodyPic">
+            <p>Deep blues splattered around, little to no control of the shape they become.</p>
+            <p>$20</p>
+            <button type="button" class="btn-success" data-target="modal">Add To Cart</button>
+          </div>
+
+          <div class="modal-footer">
+            <a class="fancybox" rel="group" href="images/pic3.jpg">
+              <img src="images/pic3.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic1.jpg">
+              <img src="images/pic1.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic9.jpg">
+              <img src="images/pic9.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic7.jpg">
+              <img src="images/pic7.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic2.jpg">
+              <img src="images/pic2.jpg" id="fb" /></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div><!--End of Mod 5-->
+    <div class="modal fade" id="modp6">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-title">
+            <p class="display-4">Northern Lights</p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <img src="images/pic6.jpg" id="modalBodyPic">
+            <p>Many shades of green dancing to the beat of their own drum</p>
+            <p>$25</p>
+            <button type="button" class="btn-success" data-target="modal">Add To Cart</button>
+          </div>
+
+          <div class="modal-footer">
+            <a class="fancybox" rel="group" href="images/pic1.jpg">
+              <img src="images/pic1.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic3.jpg">
+              <img src="images/pic3.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic8.jpg">
+              <img src="images/pic8.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic5.jpg">
+              <img src="images/pic5.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic9.jpg">
+              <img src="images/pic9.jpg" id="fb" /></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div><!--End of Mod 6-->
+    <div class="modal fade" id="modp7">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-title">
+            <p class="display-4">Midnight Rain</p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <img src="images/pic7.jpg" id="modalBodyPic">
+            <p>Deep blues, light blues, dark blues, raining on the canvas</p>
+            <p>$32</p>
+            <button type="button" class="btn-success" data-target="modal">Add To Cart</button>
+          </div>
+
+          <div class="modal-footer">
+            <a class="fancybox" rel="group" href="images/pic6.jpg">
+              <img src="images/pic6.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic1.jpg">
+              <img src="images/pic1.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic3.jpg">
+              <img src="images/pic3.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic4.jpg">
+              <img src="images/pic4.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic8.jpg">
+              <img src="images/pic8.jpg" id="fb" /></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div><!--End of Mod 7-->
+    <div class="modal fade" id="modp8">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-title">
+            <p class="display-4">Imperfect Beauty</p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <img src="images/pic8.jpg" id="modalBodyPic">
+            <p>Colors that may not seem to fit, put together so imperfectly perfect</p>
+            <p>$23</p>
+            <button type="button" class="btn-success" data-target="modal">Add To Cart</button>
+          </div>
+
+          <div class="modal-footer">
+            <a class="fancybox" rel="group" href="images/pic5.jpg">
+              <img src="images/pic5.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic1.jpg">
+              <img src="images/pic1.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic2.jpg">
+              <img src="images/pic2.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic4.jpg">
+              <img src="images/pic4.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic9.jpg">
+              <img src="images/pic9.jpg" id="fb" /></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div><!--End of Mod 8-->
+    <div class="modal fade" id="modp9">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <div class="modal-title">
+            <p class="display-4">Internal Fireworks</p>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <img src="images/pic9.jpg" id="modalBodyPic">
+            <p>Bursts of color on a vivid teal background, the feeling of excitement on a canvas</p>
+            <p>$18</p>
+            <button type="button" class="btn-success" data-target="modal">Add To Cart</button>
+          </div>
+
+          <div class="modal-footer">
+            <a class="fancybox" rel="group" href="images/pic1.jpg">
+              <img src="images/pic1.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic4.jpg">
+              <img src="images/pic4.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic3.jpg">
+              <img src="images/pic3.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic6.jpg">
+              <img src="images/pic6.jpg" id="fb" /></a>
+          <a class="fancybox" rel="group" href="images/pic8.jpg">
+              <img src="images/pic8.jpg" id="fb" /></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div><!--End of Mod 9-->
+
+    <!--=========================End of Modals ========================================-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/sss.css" rel="stylesheet">
+    <link href="css/skdslider.css" rel="stylesheet">
+    <!--Scripts-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sss.js"></script>
+    <script src="js/skdslider.js"></script>
+    
+    <!--FancyBox-->
+    <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.7"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+    <link rel="stylesheet" href="js/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <!--BootStrap Form-->
+    <script src="js/form-validator.min.js"></script>
+
+    
+    <!--ScriptCalls-->
+    <script>
+      //Slider
+      $(document).ready(function(){
+        $('#demo1').skdslider({
+          slideSelector: '.slide',
+          delay:5000,
+          animationSpeed:2000,
+          showNextPrev:true,
+          showPlayButton:true,
+          autoSlide:true,
+          animationType:'fading'
+        });
+      });
+    
+      //Show Homepage
+      function showHomeDiv() {
+        var h = document.getElementById("homeSection");
+        var a = document.getElementById("aboutSection");
+        var c = document.getElementById("contactSection")
+
+        h.style.display = 'block';
+        a.style.display = 'none';
+        c.style.display = 'none';
+      }
+
+      //Show About Div
+      function showAboutDiv() {
+        var h = document.getElementById("homeSection");
+        var a = document.getElementById("aboutSection");
+        var c = document.getElementById("contactSection")
+      
+        h.style.display = 'none';
+        a.style.display = 'block';
+        c.style.display = 'none';
+      }
+
+      //Show Contact
+      function showContactDiv() {
+        var h = document.getElementById("homeSection");
+        var a = document.getElementById("aboutSection");
+        var c = document.getElementById("contactSection")
+      
+        h.style.display = 'none';
+        a.style.display = 'none';
+        c.style.display = 'block';
+      }
+
+      //FancyBox
+      $(document).ready(function(){
+          $('.fancybox').fancybox();
+      });
+
+      //Bootstrap Form
+      $("#contactForm").validator().on("submit", function (event) {
+        if (event.isDefaultPrevented()) {
+            submitMSG(false, "Please be sure to fill out all the required fields!");
+        } else {
+        submitMSG(true, "Thank you ! We will be in touch soon !");
+        }
+      });
+
+
+      function submitForm(){
+      // Initiate Variables With Form Content
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var msg_subject = $("#msg_subject").val();
+      var message = $("#message").val();
+
+      $.ajax({
+        type: "POST",
+        url: "form-process.php",
+        data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
+        success : function(text){
+          if (text == "success"){
+            submitMSG(true, text)
+          } else {
+              formError();
+              submitMSG(false,text);
+            } 
+          }
+        });
+      }
+      function submitMSG(valid, msg){
+        if(valid == true){
+          alert("Thank you ! We will be in touch soon !")
+          $('#contactForm')[0].reset(); //Clear form
+          frm.reset();
+        } else {
+          alert("Please make sure all required fields are filled in !")
+        }
+      }
+    </script>
+  </body>
+</html>
